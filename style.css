@@ -11,6 +11,29 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  body {
+  font-size: 16px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Styles for screens smaller than 768px wide */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+In this example, the default styles are designed for desktop screens with a maximum width of 960 pixels. The media query targets screens smaller than 768 pixels wide, and adjusts the font size, max-width, and padding to make the website more mobile-friendly.
+
+By using responsive design techniques like media queries, you can ensure that your website looks great on a wide range of devices, including mobile devices with smaller screens.
+
+
+
+
+
+
 }
 
 button {
